@@ -1,0 +1,206 @@
+
+/* ------------Responsive----------- */
+@media only screen and (max-width: 480px){
+    /* -----header starts---- */
+    #header{
+        height: 550px;
+        padding: 10px;
+    }
+    .header{
+        padding: 15px 25px;
+    }
+    .header-title h1{
+        font-size: 32px;
+        line-height: 35px;
+    }
+        .header-items-parent {
+            margin-top: 65px;
+            display: flex;
+            flex-direction: column;
+        }
+        .header-items{
+            margin-bottom: 15px;
+        }
+        .header-items h4{
+            font-size: 25px;
+            font-weight: 400;
+        }
+        .header-items p{
+            font-size: 15px;
+        }
+        .fa-angle-right {
+            color: #F1C50E;
+            font-size: 50px;
+        }
+        
+        /* -----header ends---- */
+        /* -------Services Starts------ */
+    #services{
+        padding: 50px 30px;
+        width: 100%;
+    }
+    .services-top{
+        margin: 0px auto;
+        padding: 30px;
+    }
+    .services-icons .fa-user{
+        font-size: 25px;
+    }
+    .services-text h2{
+        font-size: 24px;
+    }
+    .services-text p{
+        margin: 20px 0px;
+        font-size: 12px;
+    }
+    .services-bottom{
+        grid-template-columns: 1fr;
+    }
+    .service-items{
+        padding: 20px 0px;
+    }
+    .card h3{
+        font-size: 20px;
+    }
+    .service-items p{
+        font-size: 15px;
+    }
+    .card::before {
+        width: 355px;
+        height: 35px;
+        left: 56px;
+        top: 16px;
+    }
+    
+    /* -------Services Ends------ */
+    /* -------Feature Starts---------- */
+    #features{
+        padding: 0px 10px;
+    }
+    .feature-text h2{
+        font-size: 25px;
+    }
+    .feature-grid{
+        grid-template-columns: 1fr;
+    }
+    .feature-img img{
+        width: 95%;
+        margin-left: 10px;
+    }
+    /* -------Feature Ends---------- */
+    /* --------Testimonial Starts----------- */
+    #testimonial{
+        padding: 15px;
+    }
+    .testimonial-icons .fa-user{
+        font-size: 25px;   
+        margin-top: 20px;
+    }
+    .testimonial-items{
+            padding: 10px;
+    }
+    .testimonial-items h2{
+        font-size: 24px;
+    }
+    .testimonial-items p{
+        font-size: 15px;
+        line-height: 15px;
+    }
+    /* --------Testimonial Ends----------- */
+    /*----Gallery Starts-------- */
+    .gallery{
+        grid-template-columns: 1fr;
+    }
+    .gallery .gallery-items img {
+        width: 90%;
+        height: 385px;
+    }
+    /* ----Gallery Ends-------- */
+    /* -----Profit starts-------- */
+    #profit{
+        padding: 50px 0px;
+    }
+    .profit{
+        grid-template-columns: 1fr;
+    }
+    .profit-img img{
+        height: 600px;
+        width: 90%;
+        margin: 0px 22px;
+    }
+    .profit-top{
+        position: relative;
+        padding-right: 30px;
+    }
+    .profit-heading{
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+    .profit-heading h2{
+        font-size: 25px;
+    }
+    .profit-heading p{
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .profit-bottom{
+        grid-template-columns: 1fr;
+        margin-left: 10px;
+    }
+    .profit-bottom .fas{
+        font-size: 25px;
+        margin: 10px 0px;
+    }
+    .profit-bottom p{
+        font-size: 15px;
+        line-height: 15px;
+        padding-bottom: 30px;
+    }
+    
+    /* -----Profit Ends-------- */
+    * ----------Footer Starts----------- */
+    footer{
+        text-align: center;
+    }
+    .footer{
+        grid-template-columns: 1fr;
+        margin-left: -90px;
+        margin-right: -90px;
+    }
+    .contact-info .fa-envelope{
+        font-size: 30px;
+    }
+    .contact-title h2{
+        font-size: 25px;
+    }
+    .contact-address p{
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .footer-icons a{
+        font-size: 25px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    form {
+        text-align: center;
+    }
+    
+    input[type=text],
+    input[type=email],
+    textarea {
+        width: 100%;
+        margin: 15px auto;
+        background-color: transparent;
+        padding: 10px 15px;
+        border: 1px solid white;
+        color: #fff;
+    }
+    
+    input[type=submit] {
+        padding: 10px 15px;
+    }
+    /* ----------Footer Ends----------- */
+
+}
+    
