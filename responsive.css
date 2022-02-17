@@ -112,6 +112,7 @@
         grid-template-columns: 1fr;
     }
     .gallery .gallery-items img {
+        margin: 0px 25px;
         width: 90%;
         height: 385px;
     }
